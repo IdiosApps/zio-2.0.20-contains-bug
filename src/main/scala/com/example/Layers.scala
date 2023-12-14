@@ -5,7 +5,6 @@ import zio.logging.backend.SLF4J
 
 import com.example.api.healthcheck.InMemoryHealthCheckService
 import com.example.domain.InMemoryItemRepository
-import com.example.infrastructure.flyway.FlywayProvider
 import com.example.api.healthcheck.HealthCheckService
 import com.example.domain.ItemRepository
 

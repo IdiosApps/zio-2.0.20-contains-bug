@@ -26,6 +26,7 @@ val root = (project in file("."))
       // general
       "dev.zio"        %% "zio-json"            % zioJsonVersion,
       "dev.zio"        %% "zio"                 % zioVersion,
+      "dev.zio"        %% "zio-test"            % zioVersion,
       "dev.zio"        %% "zio-config"          % zioConfigVersion,
       "dev.zio"        %% "zio-config-magnolia" % zioConfigVersion,
       "dev.zio"        %% "zio-config-typesafe" % zioConfigVersion,
